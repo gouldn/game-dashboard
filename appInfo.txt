@@ -1,0 +1,3 @@
+Google ClientID: 208786549836-gold2ntfpmpcbljc1v065e44j9toqpdd.apps.googleusercontent.com
+
+Goog Client Secret: 4V98VyRRVe7QenLac5qGyfQN
