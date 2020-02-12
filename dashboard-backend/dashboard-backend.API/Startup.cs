@@ -21,7 +21,7 @@ namespace Backend
     public void ConfigureServices(IServiceCollection services)
     {
       services.AddControllers();
-      services.AddDbContext<DashboardContext>(options => {
+      services.AddDbContext<AppContext>(options => {
         options.UseMySQL(Configuration.GetConnectionString("ConnectionString"));
       });
     }

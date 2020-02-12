@@ -3,7 +3,7 @@ using Backend.Database.Models;
 
 namespace Backend.Database.Shared
 {
-  public class DashboardContext : DbContext
+  public class AppContext : DbContext
   {
     public DbSet<Account> Accounts { get; set; }
 
